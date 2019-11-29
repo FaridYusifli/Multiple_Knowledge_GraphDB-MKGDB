@@ -13,8 +13,10 @@ https://drive.google.com/drive/folders/1IqNNDwpDcnOnV8IpjA2a3liIXwEO_EpK?usp=sha
   - GraphDB
   - Sorurce code
 ## INSTALL GraphDB
-   - download  from ... [Wikipedia category](http://downloads.dbpedia.org/3.9/en/skos_categories_en.nt.bz2)
+   - download  from ... 
+   [Wikipedia category](http://downloads.dbpedia.org/3.9/en/skos_categories_en.nt.bz2)
    [ConceptNet](https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz)
+   [DBpedia Instances](http://downloads.dbpedia.org/3.9/en/instance_types_en.nt.bz2)
    
    - unzip or copy... 
    - restore from the dump
