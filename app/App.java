@@ -54,5 +54,6 @@ public class App {
 		Neo4jBatchGraphBuilder builder = new Neo4jBatchGraphBuilder(getProperty("neo4jURL"), "neo4j",
 				getProperty("neo4jPassword"));
 		builder.run(getProperty("node"), getProperty("edge"), charSetISO, 1000);
+		System.in.read();
 	}
 }
