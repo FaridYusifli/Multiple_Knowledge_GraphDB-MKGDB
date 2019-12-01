@@ -14,12 +14,7 @@ https://drive.google.com/drive/folders/1IqNNDwpDcnOnV8IpjA2a3liIXwEO_EpK?usp=sha
   - Sorurce code
 ## INSTALL GraphDB
    - download  knowledge base files from -  
-   [Wikipedia category](http://downloads.dbpedia.org/3.9/en/skos_categories_en.nt.bz2), 
-   [ConceptNet](https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz),  
-   [DBpedia Instances](http://downloads.dbpedia.org/3.9/en/instance_types_en.nt.bz2), 
-   [WebIsAGraph](https://drive.google.com/open?id=1iNe8BcUu5Ineu3IpmjQMn2e_f3MImOLI), 
-   [DBpedia Ontology](https://drive.google.com/open?id=1XwVkT40DvutyvXgyhOmUUMaW1rUJVFVc),
-   [Wordnet](https://wordnet.princeton.edu/download/current-version)
+   [Wikipedia category](http://downloads.dbpedia.org/3.9/en/skos_categories_en.nt.bz2), [ConceptNet](https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz), [DBpedia Instances](http://downloads.dbpedia.org/3.9/en/instance_types_en.nt.bz2), [WebIsAGraph](https://drive.google.com/open?id=1iNe8BcUu5Ineu3IpmjQMn2e_f3MImOLI), [DBpedia Ontology](https://drive.google.com/open?id=1XwVkT40DvutyvXgyhOmUUMaW1rUJVFVc), [Wordnet](https://wordnet.princeton.edu/download/current-version)
    
    - from this link It is possible to download ZIP or DUMP file of graph that described in paper.
    - In order to use DUMP file you can follow this link and load the file,or you can just download and unzip ZIP file.
