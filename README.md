@@ -17,7 +17,7 @@ https://drive.google.com/drive/folders/1IqNNDwpDcnOnV8IpjA2a3liIXwEO_EpK?usp=sha
 ## INSTALL GraphDB
    
    
-   - from this link It is possible to download ZIP or DUMP file of graph that described in paper.
+   - from this link It is possible to download [ZIP](https://drive.google.com/open?id=1aREGClCuh8HRlaYya_-6Yuu2Itap4YbS) or [DUMP](https://drive.google.com/open?id=1Ytvzb0S1SXy3HxlitdXAnuafHqkrbJXs) file of graph that described in paper.
    - In order to use DUMP file you can follow this link and load the file,or you can just download and unzip ZIP file.
    - configflie 
 ## SETUP of java project
