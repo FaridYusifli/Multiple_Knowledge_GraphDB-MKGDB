@@ -6,9 +6,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
-import com.google.common.base.Stopwatch;
 import mkgdb.graph.IExtractor;
 import mkgdb.graph.IRelationCollector;
 import mkgdb.graph.builders.Neo4jBatchGraphBuilder;
@@ -37,8 +35,6 @@ public class App {
 	}
 
 	public static void main(String[] args) throws Exception {
-		Stopwatch timer = Stopwatch.createUnstarted();
-		timer.start();
 		Charset charSetISO = StandardCharsets.ISO_8859_1;
 		List<IExtractor> extractors = new ArrayList<>();
 
@@ -54,16 +50,9 @@ public class App {
 		for (IExtractor extractor : extractors)
 			extractor.extractTo(collector);
 		collector.close();
-		timer.stop();
-		System.out.println("Extraction: " + timer.elapsed(TimeUnit.MILLISECONDS));
 
-		timer.reset();
-		timer.start();
 		Neo4jBatchGraphBuilder builder = new Neo4jBatchGraphBuilder(getProperty("neo4jURL"), "neo4j",
 				getProperty("neo4jPassword"));
 		builder.run(getProperty("node"), getProperty("edge"), charSetISO, 1000);
-		timer.stop();
-		System.out.println("Graph Build: " + timer.elapsed(TimeUnit.MILLISECONDS));
-		System.in.read();
 	}
 }
