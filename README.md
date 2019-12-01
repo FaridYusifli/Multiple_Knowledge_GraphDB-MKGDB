@@ -14,4 +14,4 @@ Farid Yusifli, Stefano Faralli, Paola Velardi
    - It is possible to download and install GraphDB that we create. You can download and unzip [ZIP](https://drive.google.com/open?id=1aREGClCuh8HRlaYya_-6Yuu2Itap4YbS) file or download [DUMP](https://drive.google.com/open?id=1Ytvzb0S1SXy3HxlitdXAnuafHqkrbJXs) file then load it using this [link] (https://neo4j.com/docs/operations-manual/current/tools/dump-load/) 
    
 ## SETUP of Java Project
-  - In order to use the source code and run it, it is enough to download and configure the property f values.
+  - In order to use the source code and run it, it is enough to download and configure the config.properties file.
