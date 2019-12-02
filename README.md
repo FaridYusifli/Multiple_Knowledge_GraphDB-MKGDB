@@ -1,17 +1,31 @@
 # Multiple Knowledge GraphDB (MKGDB)
+Farid Yusifli(1), Stefano Faralli(2), Paola Velardi(1)
+(1) University of Rome Sapienza
+(2) University of Rome Unitelma Sapienza
 
-## Abstract
-We present MKGDB, a large-scale graph database created as a combination of multiple taxonomy backbones extracted from 5 existing knowledge graphs, namely:  ConceptNet, DBpedia, WebIsAGraph, WordNet and the Wikipedia category hierarchy.  MKGDB, thanks the versatility of the Neo4j graph database manager technology, is intended to favour and help the development of open-domain natural language processing applications relying on knowledge bases, such as information extraction, hypernymy discovery, topic clustering, and others (Camacho-Collados et al., 2018). Our resource consists of a large hypernymy graph which counts more than 37 millions nodes and more than 81 millions hypernymy relations. MKGDB and all the related material (data and source code) are publicly available under a CC BY 4.0 license 
+<b>MKGDB</b> is a large-scale graph database created as a combination of multiple taxonomy backbones extracted from 5 existing knowledge graphs, namely:  <i>ConceptNet</i>, <i>DBpedia</i>, <i>WebIsAGraph</i>, <i>WordNet</i> and the <i>Wikipedia category hierarchy</i>.  <b>MKGDB</b>, thanks the versatility of the <a href='https://neo4j.com/'>Neo4j</a> graph database manager technology, is intended to favour and help the development of open-domain natural language processing applications relying on knowledge bases, such as information extraction, hypernymy discovery, topic clustering, and others. Our resource consists of a large hypernymy graph which counts more than <b>37 millions nodes</b> and more than <b>81 millions hypernymy relations</b>. 
 
-## Authors 
-Farid Yusifli, Stefano Faralli, Paola Velardi
+## Installing the Multiple Knowledge Graph Database 
+<b>MKGDB</b> is avaliable in two format: 
+<ul>
+<li>The compressed zip copy of the graph database is avaliable at: https://drive.google.com/open?id=1aREGClCuh8HRlaYya_-6Yuu2Itap4YbS) file or download; 
+<li>A dump of the graph databse  is avaliable at: https://drive.google.com/open?id=1Ytvzb0S1SXy3HxlitdXAnuafHqkrbJXs.</li>
+</ul>
+If you chose to download the copy of the database instance, you will need to modify the <i>neo4j.conf</i> file to target the download graph database and restart the neo4j server. Instead, if you want to use to load the dump version, you can follow the instructions provided at: https://neo4j.com/docs/operations-manual/current/tools/dump-load/.
 
-## Resources
-Download knowledge graphs that we are used from these links
-[Wikipedia category](http://downloads.dbpedia.org/3.9/en/skos_categories_en.nt.bz2), [ConceptNet](https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz), [DBpedia Instances](http://downloads.dbpedia.org/3.9/en/instance_types_en.nt.bz2), [WebIsAGraph](https://drive.google.com/open?id=1iNe8BcUu5Ineu3IpmjQMn2e_f3MImOLI), [Wordnet](https://wordnet.princeton.edu/download/current-version), [DBpedia Ontology](https://drive.google.com/open?id=1XwVkT40DvutyvXgyhOmUUMaW1rUJVFVc) 
-  
-## Installing GraphDB 
-   - It is possible to download and install GraphDB that we create. You can download and unzip [ZIP](https://drive.google.com/open?id=1aREGClCuh8HRlaYya_-6Yuu2Itap4YbS) file or download [DUMP](https://drive.google.com/open?id=1Ytvzb0S1SXy3HxlitdXAnuafHqkrbJXs) file then load it using this [link](https://neo4j.com/docs/operations-manual/current/tools/dump-load/) 
+## Related Resources
+In this section we provide the link to download the dataset we used to generate the MKGDB:
+<ul>
+<li>[Wikipedia category](http://downloads.dbpedia.org/3.9/en/skos_categories_en.nt.bz2)</li>;
+<li>[ConceptNet](https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz)</li>;ù
+<li>[DBpedia Instances](http://downloads.dbpedia.org/3.9/en/instance_types_en.nt.bz2);</li>
+<li>[WebIsAGraph](https://drive.google.com/open?id=1iNe8BcUu5Ineu3IpmjQMn2e_f3MImOLI);</li> 
+<li>[Wordnet](https://wordnet.princeton.edu/download/current-version);</li>
+<li>[DBpedia Ontology](https://drive.google.com/open?id=1XwVkT40DvutyvXgyhOmUUMaW1rUJVFVc).</li> 
+ </ul>
    
 ## SETUP of Java Project
   - In order to use the source code and run it, it is enough to download and configure the config.properties file.
+
+## Contacts 
+Farid Yusifli, Stefano Faralli, Paola Velardi
