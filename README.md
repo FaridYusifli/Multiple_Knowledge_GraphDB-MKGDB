@@ -16,16 +16,17 @@ If you chose to download the copy of the database instance, you will need to mod
 ## Related Resources
 In this section we provide the link to download the dataset we used to generate the MKGDB:
 <ul>
-<li>[Wikipedia category](http://downloads.dbpedia.org/3.9/en/skos_categories_en.nt.bz2)</li>;
-<li>[ConceptNet](https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz)</li>;ù
+<li>[Wikipedia category](http://downloads.dbpedia.org/3.9/en/skos_categories_en.nt.bz2);</li>
+<li>[ConceptNet](https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz);</li>
 <li>[DBpedia Instances](http://downloads.dbpedia.org/3.9/en/instance_types_en.nt.bz2);</li>
 <li>[WebIsAGraph](https://drive.google.com/open?id=1iNe8BcUu5Ineu3IpmjQMn2e_f3MImOLI);</li> 
 <li>[Wordnet](https://wordnet.princeton.edu/download/current-version);</li>
 <li>[DBpedia Ontology](https://drive.google.com/open?id=1XwVkT40DvutyvXgyhOmUUMaW1rUJVFVc).</li> 
  </ul>
    
-## SETUP of Java Project
-  - In order to use the source code and run it, it is enough to download and configure the config.properties file.
+## Source code
+We release also the java project we developed to the generation of the graph database starting from the above mentioned dataset.
+To correctly run the generation of the resource from the above dataset it is required to edit the config.properties file.
 
 ## Contacts 
 Farid Yusifli, Stefano Faralli, Paola Velardi
